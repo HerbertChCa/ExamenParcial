@@ -30,6 +30,22 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0YWxvZ29cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/ExamenParcial2/PortalAcademico/Views/Coordinador/CreateCurso.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29vcmRpbmFkb3JcQ3JlYXRlQ3Vyc28uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/ExamenParcial2/PortalAcademico/Views/Coordinador/Cursos.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29vcmRpbmFkb3JcQ3Vyc29zLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/ExamenParcial2/PortalAcademico/Views/Coordinador/EditCurso.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29vcmRpbmFkb3JcRWRpdEN1cnNvLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/ExamenParcial2/PortalAcademico/Views/Coordinador/MatriculasCurso.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29vcmRpbmFkb3JcTWF0cmljdWxhc0N1cnNvLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/ExamenParcial2/PortalAcademico/Views/Cursos/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3Vyc29zXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
