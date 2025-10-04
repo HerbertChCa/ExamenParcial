@@ -23,7 +23,6 @@ namespace PortalAcademico.Controllers
         [HttpPost]
         public async Task<IActionResult> Inscribirse(int cursoId)
         {
-
             var userId = _userManager.GetUserId(User);
             if (string.IsNullOrEmpty(userId))
             {
@@ -31,7 +30,7 @@ namespace PortalAcademico.Controllers
                 return RedirectToAction("Index", "Catalogo");
             }
 
-
+        
             var curso = await _context.Cursos.FirstOrDefaultAsync(c => c.Id == cursoId && c.Activo);
             if (curso == null)
             {
@@ -39,6 +38,7 @@ namespace PortalAcademico.Controllers
                 return RedirectToAction("Index", "Catalogo");
             }
 
+  
             var inscritos = await _context.Matriculas.CountAsync(m => m.CursoId == cursoId && m.Estado != EstadoMatricula.Cancelada);
             if (inscritos >= curso.CupoMaximo)
             {
@@ -46,13 +46,13 @@ namespace PortalAcademico.Controllers
                 return RedirectToAction("Detalle", "Catalogo", new { id = cursoId });
             }
 
-
+            
             var matriculasUsuario = await _context.Matriculas
             .Include(m => m.Curso)
             .Where(m => m.UsuarioId == userId && m.Estado != EstadoMatricula.Cancelada)
-            .ToListAsync();
+            .ToListAsync(); 
 
-
+            
             var solapados = matriculasUsuario.Any(m => m.Curso != null &&
                                                     (curso.HorarioInicio < m.Curso.HorarioFin) &&
                                                     (m.Curso.HorarioInicio < curso.HorarioFin));
@@ -62,6 +62,7 @@ namespace PortalAcademico.Controllers
                 TempData["Error"] = "No se puede inscribir: el horario se solapa con otro curso ya matriculado.";
                 return RedirectToAction("Detalle", "Catalogo", new { id = cursoId });
             }
+
 
             var matricula = new Matricula
             {
