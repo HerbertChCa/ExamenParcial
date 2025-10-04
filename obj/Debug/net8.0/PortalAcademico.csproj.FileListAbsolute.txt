@@ -142,3 +142,9 @@ C:\ExamenParcial2\PortalAcademico\obj\Debug\net8.0\refint\PortalAcademico.dll
 C:\ExamenParcial2\PortalAcademico\obj\Debug\net8.0\PortalAcademico.pdb
 C:\ExamenParcial2\PortalAcademico\obj\Debug\net8.0\PortalAcademico.genruntimeconfig.cache
 C:\ExamenParcial2\PortalAcademico\obj\Debug\net8.0\ref\PortalAcademico.dll
+C:\ExamenParcial2\PortalAcademico\bin\Debug\net8.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\ExamenParcial2\PortalAcademico\bin\Debug\net8.0\Microsoft.Extensions.Caching.StackExchangeRedis.dll
+C:\ExamenParcial2\PortalAcademico\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
+C:\ExamenParcial2\PortalAcademico\bin\Debug\net8.0\Pipelines.Sockets.Unofficial.dll
+C:\ExamenParcial2\PortalAcademico\bin\Debug\net8.0\StackExchange.Redis.dll
+C:\ExamenParcial2\PortalAcademico\bin\Debug\net8.0\System.Diagnostics.DiagnosticSource.dll
